@@ -1,0 +1,4 @@
+List yang harus ditambahkan untuk bahan belajar
+- QR Code Reader
+- REST API
+- Google Map dengan pembatasan area

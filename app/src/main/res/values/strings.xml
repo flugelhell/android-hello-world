@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Hello World</string>
     <string name="main_btnSet">Set Text</string>
+    <string name="main_btnQRScan">QR Code Scanner</string>
 </resources>

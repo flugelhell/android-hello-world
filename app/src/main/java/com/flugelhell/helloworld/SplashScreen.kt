@@ -16,8 +16,12 @@ class SplashScreen : AppCompatActivity() {
      * Untuk menambah image copy paste ke folder drawable dan pilih hanya drawable
      */
     private val myPermissionsRequestCamera = 1
+    private val myPermissionRequestFineLocation = 20
+    private val myPermissionRequestCoarseLocation = 21
     private val listOfPermissionRequested = arrayOf(
-        arrayOf<String>(Manifest.permission.CAMERA, myPermissionsRequestCamera.toString())
+        arrayOf<String>(Manifest.permission.CAMERA, myPermissionsRequestCamera.toString()),
+        arrayOf<String>(Manifest.permission.ACCESS_FINE_LOCATION, myPermissionRequestFineLocation.toString()),
+        arrayOf<String>(Manifest.permission.ACCESS_COARSE_LOCATION, myPermissionRequestCoarseLocation.toString())
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

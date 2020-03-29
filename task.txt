@@ -1,5 +1,5 @@
 List yang harus ditambahkan untuk bahan belajar
 - QR Code Reader -> Done
 - REST API
-- Google Map dengan pembatasan area
+- Google Map dengan pembatasan area -> only distance applied
 - Notification

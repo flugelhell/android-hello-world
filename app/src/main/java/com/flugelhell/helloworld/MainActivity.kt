@@ -24,6 +24,11 @@ class MainActivity : AppCompatActivity() {
         btnQRScanner.setOnClickListener{
             startActivityForResult(Intent(this, CodeScannerActivity::class.java), resultCodeQRCODE)
         }
+
+        /* Button Map */
+        btnMap.setOnClickListener{
+            startActivity(Intent(this, MapActivity::class.java))
+        }
     }
 
     private fun setView(text: String){

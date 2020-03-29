@@ -2,4 +2,9 @@
     <string name="app_name">Hello World</string>
     <string name="main_btnSet">Set Text</string>
     <string name="main_btnQRScan">QR Code Scanner</string>
+    <string name="main_btnMap">Map</string>
+    <string name="map_getLocation">Get Location</string>
+    <string name="map_hintLong">Longitude</string>
+    <string name="map_hintLat">Latitude</string>
+    <string name="map_btnCalculateDistance">Calculate Distance with Center Point</string>
 </resources>
